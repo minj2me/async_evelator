@@ -63,8 +63,5 @@ fn main() {
     let task5 = ElevatorTask::new(false, 1, TaskType::goingDown);
     s.execute(task1);
     s.execute(task2);
-    //s.execute(task3);
-    //s.execute(task4);
-    //s.execute(task5);
     s.run();
 }
